@@ -71,6 +71,6 @@ services:
       # - WHOOGLE_CONFIG_GET_ONLY=1
       # - WHOOGLE_CONFIG_COUNTRY=FR
     #env_file: # Alternatively, load variables from whoogle.env
-      #- whoogle.env
+      - whoogle.env
     ports:
       - 8000:5000
